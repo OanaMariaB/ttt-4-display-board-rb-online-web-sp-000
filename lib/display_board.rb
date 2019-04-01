@@ -1,3 +1,8 @@
 def display_board(board = [" ", " ", " ", " ", " ", " ", " ", " ", " "])
-board[4] = "X"
+    puts "   |   |   "
+    puts "-----------"
+    puts "   |   |   "
+    puts "-----------"
+    puts "   |   |   "
+puts "X#{board[4]}"
 end
