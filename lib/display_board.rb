@@ -4,6 +4,5 @@ def display_board(board = [" ", " ", " ", " ", " ", " ", " ", " ", " "])
   puts "   |   |   "
   puts "-----------"
   puts "   |   |   "
-  puts board = [" ", " ", " ", "X", " ", " ", " ", " ", " "]
-  puts board = ["O", " ", " ", " ", " ", " ", " ", " ", " "]
+  puts board[4] = "X"
   end
