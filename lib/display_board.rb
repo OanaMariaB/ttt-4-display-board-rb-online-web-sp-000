@@ -4,7 +4,7 @@ def display_board(board = [" ", " ", " ", " ", " ", " ", " ", " ", " "])
   puts "   |   |   "
   puts "-----------"
   puts "   |   |   "
-  puts "X#{board[4]}"
+  board[4] = "X"
   puts "O#{board[0]}"
   puts "X#{board[4]}, O#{board[0]}"
   puts "X#{board[0]}, X#{board[1]}, X#{board[2]}"
